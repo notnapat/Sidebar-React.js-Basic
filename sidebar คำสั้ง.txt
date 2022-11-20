@@ -1,0 +1,33 @@
+หาใน google => react icons พิมพ์ bars ช่อง search
+npm install styled-components react-icons react-router-dom
+
+in src
+
+App.js  => 1.1, 1.2, 3, 4.3, 4.4, 4.7, 4.8, 4.10
+App.css => 4.5
+
+new folder => components
+=> Sidebar.js      => 1, 2, 2.1, 2.2, 2.3, 2.4?, 2.5, 2.6, 2.7, 2.8 ถึง 2.13, 2.14, 2.15, 3.6
+=> SidebarData.js  => 1.3, 1.4, 1.5?, 1.6?, 1.7,
+=> SideMenu.js     => 3, 3.1, 3.2-3.5, 3.7-3.12,
+
+new folder => pages
+=> Overview.js  => 4.1, 4.2
+=> Reports.js   => 4.6
+=> Team.js      => 4.9
+
+?
+1.4 => ex. import * as NameIcon from 'react-icons/na'
+- น่าเป็น ตั้งชื่อแล้วบันทึกไปที่ react-icons แล้วดึงมาใช้กับ รูปicon
+- NameIcon เราตั้งเอง
+- 2 ตัวหลังสุด (na) เอา 2 ตัวแรกของชื่อที่เราตั้งไปใส่
+
+1.5, 1,6 => ex. <NameIcon.AiFillHome />
+- NameIcom   == คือชื่อที่เราตั้งตอน 1.4
+- AiFillHome == คือรูป icon จากไลบารี่ที่ติดตั้งไป เอาชื่อ พร้อมรูปที่อ้างอิง หรือจะใช้งานมาจาก เว็บ react-icons
+
+2.4 
+ <>
+   <Nav>Nav<Nav/>
+ </>
+ 
